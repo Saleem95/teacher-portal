@@ -1,11 +1,13 @@
 body {
-    background-color: #f8f9fa;
+    background: #ddd;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-
+tr:hover{
+    background: #ddd;
+}
 .input-group-append {
     margin-left: -50px !important;
 }
