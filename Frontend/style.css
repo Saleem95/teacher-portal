@@ -5,6 +5,7 @@ body {
     align-items: center;
     height: 100vh;
 }
+
 .input-group-append {
     margin-left: -50px !important;
 }
@@ -14,9 +15,11 @@ body {
     justify-content: center;
     position: relative;
 }
+
 .login-container .border {
     min-width: 1000px;
 }
+
 .container {
     background-color: white;
     padding: 20px 20px !important;
@@ -25,6 +28,7 @@ body {
     top: 65px;
     position: relative;
 }
+
 .badge-primary {
     color: #fff;
     background-color: #007bff;
@@ -33,13 +37,17 @@ body {
     height: 40px;
     width: 40px;
 }
+
 .action-container {
     position: relative;
     display: none;
 }
-tr:hover .action-container, tr:active .action-container {
+
+tr:hover .action-container,
+tr:active .action-container {
     display: inline-block;
 }
+
 .subnav {
     display: none;
     position: absolute;
@@ -56,10 +64,12 @@ tr:hover .action-container, tr:active .action-container {
     display: block;
     width: 100%;
 }
-#studentList tr:hover{
+
+#studentList tr:hover {
     background-color: 87f7f7;
 }
-.links{
+
+.links {
     z-index: 99;
     position: absolute;
     padding: 10px 15px;
@@ -68,25 +78,31 @@ tr:hover .action-container, tr:active .action-container {
     top: 40px;
     background: #fff;
 }
-.links button:hover{
+
+.links button:hover {
     background-color: #8abef5;
 }
+
 .subnav {
     display: none;
 }
+
 .table thead th {
     border-right: 1px #e1e1e1 solid;
 }
+
 @media screen and (max-width: 980px) {
     .login-container .border {
-        min-width: 500px !important; 
+        min-width: 500px !important;
     }
-    .container{
+
+    .container {
         top: 0px !important;
     }
-  }
+}
+
 @media screen and (max-width: 480px) {
     .login-container .border {
-        min-width: 350px !important; 
+        min-width: 350px !important;
     }
-  }
+}
