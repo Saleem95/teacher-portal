@@ -1,6 +1,8 @@
 1. Backend
 
 Run the code backend on localhost.
+Use your database name.
+mongodb://localhost:27017/(Your Databse Name).
 Make sure your database is connected successfully (MongoDB).
 
 2. FrontEnd
